@@ -97,6 +97,15 @@
                     </excludes>
                 </configuration>
             </plugin>
+        <!-- Plugin Surefire pour la configuration des tests -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0</version>
+            <configuration>
+                <argLine>@{argLine} -XX:+EnableDynamicAgentLoading</argLine>
+            </configuration>
+        </plugin>
         <!-- Plugin JaCoCo -->
         <plugin>
             <groupId>org.jacoco</groupId>
