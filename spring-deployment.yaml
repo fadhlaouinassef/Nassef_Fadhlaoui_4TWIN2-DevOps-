@@ -4,7 +4,7 @@ metadata:
   name: spring-config
   namespace: devops
 data:
-  SPRING_DATASOURCE_URL: "jdbc:mysql://mysql-service:3306/springdb"
+  SPRING_DATASOURCE_URL: "jdbc:mysql://mysql-service:3306/studentdb"
 
 ---
 apiVersion: v1
