@@ -12,11 +12,11 @@ spec:
     path: "/data/mysql"
 
 ---
-# 2. PersistentVolumeClaim (PVC)
+# 2. PersistentVolumeClaim (PVC) - version propre
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: mysql-pvc
+  name: mysql-pvc-new
   namespace: devops
 spec:
   accessModes:
