@@ -44,7 +44,7 @@ spring.datasource.password=VOTRE_MOT_DE_PASSE
 
 #### Créer la base de données (si nécessaire)
 ```sql
-CREATE DATABASE IF NOT EXISTS studentdb;
+CREATE DATABASE IF NOT EXISTS springdb;
 ```
 
 ---
