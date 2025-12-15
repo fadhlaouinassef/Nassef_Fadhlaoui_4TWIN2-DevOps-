@@ -1,6 +1,3 @@
-sonarqube.yaml – SonarQube dans le namespace devops (atelier ESPRIT 2025-2026)
-
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
